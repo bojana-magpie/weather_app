@@ -5,12 +5,17 @@ import MenuItem from "./Menu/MenuItem";
 import Header from "./Header";
 
 const HeaderWrapper = (props) => {
+    const items = [
+        {title: "GitHub"},
+        {title: "About"}
+    ]
     return (
         <Header>
             <Logo title="Weather by VicBox"></Logo>
             <Menu>
-                <MenuItem title="GitHub"/>
-                <MenuItem title="About"/>
+                {items.map((item, index) => (
+                    <MenuItem key={index} title={item.title}></MenuItem>
+                ))}
             </Menu>
         </Header>
     )
