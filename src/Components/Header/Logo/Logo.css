@@ -12,3 +12,9 @@ div {
 img {
     margin-right: 1.25em;
 }
+
+@media (max-width: 541px) {
+    p {
+        display: none;
+    }
+}
