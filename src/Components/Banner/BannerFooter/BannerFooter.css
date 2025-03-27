@@ -1,0 +1,11 @@
+.weather-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 70px;
+}
+
+.detail-item {
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-start;
+}

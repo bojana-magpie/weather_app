@@ -7,7 +7,7 @@ const BannerHeader = (props) => {
     return (
         <>
                 <div className="menu-container">
-                    <img src={Menu} alt="Menu" className="menu"/>
+                    <img src={Menu} alt="Menu" className="menu-banner"/>
                 </div>
                 <div className="sunny">
                     <img src={Sunny} alt="Banner" className="sunny-img"/>
