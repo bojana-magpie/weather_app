@@ -3,7 +3,7 @@ import "./Menu.css"
 
 const Menu = (props) => {
     return (
-        <nav>
+        <nav className="menu">
             <ul>
                 {props.children}
             </ul>
