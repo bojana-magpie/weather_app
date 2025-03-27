@@ -1,0 +1,22 @@
+.banner {
+    width: 450px;
+    height: 575px;
+    background-color: var(--gray);
+    border-radius: 48px;
+    padding: 24px 30px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 144px;
+    font-weight: 300;
+}

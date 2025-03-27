@@ -5,7 +5,7 @@ import "./Logo.css"
 const Logo = (props) => {
     const title = props.title
     return (
-        <div>
+        <div className="logo">
             <img src={PartlyCloudy} alt="Logo"/>
             <p>{ title }</p>
         </div>
