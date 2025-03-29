@@ -14,11 +14,11 @@ img {
 }
 
 .logo {
-    padding-left: 4.6875em;
+    padding-left: 5%;
 }
 
 @media (max-width: 541px) {
-    p {
+    .p-logo {
         display: none;
     }
 }

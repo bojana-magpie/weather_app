@@ -17,3 +17,18 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1.125em;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 9em;
+  font-weight: 300;
+}

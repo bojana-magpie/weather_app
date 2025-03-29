@@ -7,7 +7,7 @@ const Logo = (props) => {
     return (
         <div className="logo">
             <img src={PartlyCloudy} alt="Logo"/>
-            <p>{ title }</p>
+            <p className="p-logo">{ title }</p>
         </div>
     )
 }

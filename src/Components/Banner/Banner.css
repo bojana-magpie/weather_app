@@ -2,21 +2,45 @@
     width: 450px;
     height: 575px;
     background-color: var(--gray);
-    border-radius: 48px;
-    padding: 24px 30px;
+    border-radius: 3em;
+    padding: 1.5em 1.875em;
+    margin-right: 2.5em;
 }
 
-h2 {
-    font-size: 24px;
-    font-weight: 600;
+.banner:last-child {
+    margin-right: 0;
 }
 
-p {
-    font-size: 18px;
-    font-weight: 400;
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-h1 {
-    font-size: 144px;
-    font-weight: 300;
+.plus-img {
+    margin-bottom: 1.25em;
+}
+
+.banners {
+    display: flex;
+}
+
+@media (max-width: 541px) {
+    .banners {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .banner {
+        margin-right: 0;
+    }
+    .right {
+        height: 250px;
+    }
 }
